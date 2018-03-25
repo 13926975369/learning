@@ -9,13 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-return [
-    '__pattern__' => [
-        'name' => '\w+',
-    ],
-    '[hello]'     => [
-        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-        ':name' => ['index/hello', ['method' => 'post']],
-    ],
+use think\Route;
 
-];
+Route::rule('index','gx/v1.Index/index','POST',['https' => false]);
+Route::rule('index','gx/v1.Index/test','GET',['https' => false]);
