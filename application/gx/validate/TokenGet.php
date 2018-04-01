@@ -6,7 +6,7 @@
  * Time: 14:11
  */
 
-namespace app\gx\validate;
+namespace app\api\validate;
 
 
 class TokenGet extends BaseValidate
