@@ -29,7 +29,7 @@ class Index extends BaseController
         //定义result
         $result = [];
         if ($type == 'A001'){
-            if ($token != 'gx'){
+            if ($token != 'qutcssa'){
                 throw new BaseException([
                     'msg' => '传入的身份验证不正确！'
                 ]);
