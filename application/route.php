@@ -11,5 +11,5 @@
 
 use think\Route;
 
-Route::rule('index','gx/v1.Index/index','POST',['https' => false]);
-Route::rule('index','gx/v1.Index/test','GET',['https' => false]);
+Route::rule('index','learn/v1.Index/index','POST',['https' => false]);
+Route::rule('index','learn/v1.Index/test','GET',['https' => false]);
